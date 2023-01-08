@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+body {
+  font-family: 'Roboto Mono', monospace;
+  height: 100vh;
+}
+
+button.carousel__button {
+  position: absolute;
+  top: 0;
+  width: 93px;
+  height: 100vh;
+  background: center no-repeat url('./images/chevron.svg'), #ff00c7;
+  opacity: 0.3;
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+}
+
+button.carousel__button.carousel__previous {
+  left: 0;
+}
+
+button.carousel__button.carousel__next {
+  right: 0;
+  transform: rotate(180deg);
+}

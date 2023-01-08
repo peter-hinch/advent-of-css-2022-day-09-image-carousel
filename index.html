@@ -6,6 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Advent of CSS 2022 - Day 9 - Image Carousel</title>
     <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./node_modules/normalize.css/normalize.css" />
   </head>
-  <body></body>
+  <body>
+    <main>
+      <section class="carousel">
+        <div class="carousel__featured">
+          <img class="featured__image" />
+          <div class="featured__description">
+            Photo by Sonya Romanovska on Unsplash.
+          </div>
+        </div>
+        <div class="carousel__thumbnails"></div>
+        <button
+          alt="previous image"
+          aria-label="previous image"
+          class="carousel__button carousel__previous"
+        ></button>
+        <button
+          alt="next image"
+          aria-label="next image"
+          class="carousel__button carousel__next"
+        ></button>
+      </section>
+    </main>
+  </body>
 </html>
