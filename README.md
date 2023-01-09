@@ -17,3 +17,4 @@ Please feel free to check out my other Advent of CSS repos:
 - [Day 7 - Tip Calculator](https://github.com/peter-hinch/advent-of-css-2022-day-07-tip-calculator)
 - [Day 8 - Weather API](https://github.com/peter-hinch/advent-of-css-2022-day-08-weather-api)
 - Day 9 - Image Carousel
+- [Day 10 - Verification Code](https://github.com/peter-hinch/advent-of-css-2022-day-10-verification-code)
