@@ -5,6 +5,43 @@ body {
   height: 100vh;
 }
 
+section.carousel {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  padding: 0 28px 34px;
+  overflow: hidden;
+}
+
+.carousel__featured {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  max-width: calc(100vw - 240px);
+}
+
+.carousel__featured .featured__image {
+  max-height: 60vh;
+  max-width: 100%;
+}
+
+.carousel__thumbnails {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 27px;
+}
+
+.carousel__thumbnails .thumbnail__image {
+  width: 100%;
+  height: auto;
+  max-height: 342px;
+}
+
 button.carousel__button {
   position: absolute;
   top: 0;
