@@ -19,3 +19,7 @@ Please feel free to check out my other Advent of CSS repos:
 - Day 9 - Image Carousel
 - [Day 10 - Verification Code](https://github.com/peter-hinch/advent-of-css-2022-day-10-verification-code)
 - [Day 11 - Expander / Collapser](https://github.com/peter-hinch/advent-of-css-2022-day-11-expander-collapser)
+
+I have also participated in Advent of JS. You can check out these repos, here:
+
+- [Day 1 - Pomodoro Timer](https://github.com/peter-hinch/advent-of-js-2022-day-01-pomodoro-timer)
